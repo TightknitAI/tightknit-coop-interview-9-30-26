@@ -8,6 +8,12 @@ Requires Node 20 or later.
 
 ```sh
 npm install
+```
+
+## Running and testing
+
+```sh
+npm test          # runs the tests in test/
 npm run digest    # runs buildDigest on data/messages.json and prints the result
 npm run digest -- data/sample-messages.json
 ```
